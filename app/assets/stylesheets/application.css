@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+p{
+  margin: 33px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 5px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+.button {
+  display:block;
+}
