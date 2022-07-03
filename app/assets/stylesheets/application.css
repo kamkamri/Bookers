@@ -50,6 +50,10 @@ h2 {
   padding-bottom: 20px;
 }
 
+.field {
+  margin-bottom: 10px;
+}
+
 .button {
   display:block;
 }
