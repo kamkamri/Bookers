@@ -29,6 +29,13 @@ class BooksController < ApplicationController
   end
 
   def destroy
+    # 1 受け取ったレコードをインスタンス変数に保存
+    book = Book.find(params[:id])
+    # 2　削除
+    book.destroy
+    # 3 一覧がめんへリダイレクト
+    redirect_to books_url
+
   end
 
   private
