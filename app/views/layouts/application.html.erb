@@ -11,6 +11,8 @@
   </head>
 
   <body>
+    <!--フラッシュメッセージ：成功を表示させる-->
+    <p class ="notice" ><%= flash[:notice] %></p>
     <%= yield %>
   </body>
 </html>

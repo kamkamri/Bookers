@@ -57,3 +57,28 @@ h2 {
 .button {
   display:block;
 }
+
+.notice {
+  color: green;
+}
+
+.errors {
+  padding: 7;
+  margin-bottom: 20px;
+  border: 2px solid red;
+  width: 450px;
+}
+
+.errors_head {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin-bottom: 0;
+  background-color: red;
+  color: #fff;
+}
+
+.errors_list {
+  padding-inline-start: 40px;
+}
